@@ -18,7 +18,7 @@ import os
 
 # os.environ["WANDB_DISABLE_CODE"]="true"
 wandb.setup(wandb.Settings(program="Q3.py", program_relpath="Q3.py"))
-wandb.login(key="b3f04c713e38afd9a5b88acad32ca1d1ace59dbc")
+wandb.login(key="--")
 
 
 class DQN3Layers(nn.Module):
